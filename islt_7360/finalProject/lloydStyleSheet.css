@@ -1,0 +1,80 @@
+body{
+    background-color: #f9efd9;
+    font-family: "Lucida Sans", Lucida, sans-serif;
+    padding: 10px;
+    border-style: double;
+    border-color:#5c5749;
+    }
+h1 {
+    font-size: 50px;
+    font-family: "Lucida Handwriting", sans-serif;
+    color: #9b3b2b;
+    text-align: center
+    }
+
+h2 {
+    font-size: 30px;
+    font-family: "Lucida Sans", Lucida, sans-serif;
+    color: #69656f;
+}
+p{
+    color: #5c5749;
+    font-size: 20px;
+    text-align: center;
+}
+    
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #69656f;
+    border-style: solid;
+    border-color: #9b3b2b;
+    }
+
+nav li { 
+    float: left;
+    }
+
+nav li a {
+    display: block;
+    color: #fac95d;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Lucida Sans", Lucida, sans-serif;
+    border-right: solid #fbeeed;
+    }
+
+.active { background-color: #9b3b2b; }
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 5px;
+    margin-left: 5px;
+    }
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+table,tr,td,th{
+    border: 1px;
+    border-style: solid;
+    text-align: center;}
+
+    table{
+        text-align:center;
+        margin-left: auto;
+        margin-right:auto;
+        color: #5c5749
+        }
